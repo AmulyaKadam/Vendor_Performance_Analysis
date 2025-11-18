@@ -1,0 +1,27 @@
+2025-09-25 13:05:14,620 [INFO] Created table `begin_inventory`
+2025-09-25 13:05:35,108 [INFO] Loaded 206529 rows into `begin_inventory`. Total rows: 206529
+2025-09-25 13:05:35,150 [INFO] [begin_inventory] Time: 20.79s
+2025-09-25 13:05:35,468 [INFO] Created table `end_inventory`
+2025-09-25 13:05:58,069 [INFO] Loaded 224489 rows into `end_inventory`. Total rows: 224489
+2025-09-25 13:05:58,122 [INFO] [end_inventory] Time: 22.97s
+2025-09-25 13:06:02,924 [INFO] Created table `purchases`
+2025-09-25 13:13:05,928 [INFO] Loaded 2372474 rows into `purchases`. Total rows: 2372474
+2025-09-25 13:13:06,650 [INFO] [purchases] Time: 428.53s
+2025-09-25 13:13:06,754 [INFO] Created table `purchase_prices`
+2025-09-25 13:13:08,013 [INFO] Loaded 12261 rows into `purchase_prices`. Total rows: 12261
+2025-09-25 13:13:08,024 [INFO] [purchase_prices] Time: 1.37s
+2025-09-25 13:13:23,065 [INFO] Created table `sales`
+2025-09-25 13:45:49,325 [INFO] Loaded 12825363 rows into `sales`. Total rows: 12825363
+2025-09-25 13:45:52,165 [INFO] [sales] Time: 1964.14s
+2025-09-25 13:45:52,420 [INFO] Created table `vendor_invoice`
+2025-09-25 13:45:53,093 [INFO] Loaded 5543 rows into `vendor_invoice`. Total rows: 5543
+2025-09-25 13:45:53,096 [INFO] [vendor_invoice] Time: 0.93s
+2025-09-25 13:45:53,096 [INFO] ====== ETL SUMMARY ======
+2025-09-25 13:45:53,096 [INFO] Total files: 6, Total rows: 15646659
+2025-09-25 13:45:53,096 [INFO] Table: begin_inventory, CSV rows: 206529, DB rows: 206529
+2025-09-25 13:45:53,097 [INFO] Table: end_inventory, CSV rows: 224489, DB rows: 224489
+2025-09-25 13:45:53,097 [INFO] Table: purchases, CSV rows: 2372474, DB rows: 2372474
+2025-09-25 13:45:53,097 [INFO] Table: purchase_prices, CSV rows: 12261, DB rows: 12261
+2025-09-25 13:45:53,097 [INFO] Table: sales, CSV rows: 12825363, DB rows: 12825363
+2025-09-25 13:45:53,097 [INFO] Table: vendor_invoice, CSV rows: 5543, DB rows: 5543
+2025-09-25 13:45:53,097 [INFO] ETL completed in 2438.75 seconds.
