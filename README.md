@@ -129,5 +129,5 @@ Top vendors contributing the most:
 
 # 📬 Contact
 **Amulya Kadam**  
-📧 your-email-here  
-🔗 LinkedIn: your-link-here  
+📧 kadamamulya017@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/amulya-kadam-8b3647208 
