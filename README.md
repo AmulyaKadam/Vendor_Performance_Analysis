@@ -1,9 +1,91 @@
-# 🌟 Vendor Performance Analysis
+# 🚀 Vendor Performance Analysis
 
-A complete **ETL + EDA + Statistical Analysis** project focused on understanding vendor performance, profitability, inventory movement, and unsold capital.  
-This project helps businesses **optimize vendor relationships**, **reduce capital lock**, and **identify high-margin opportunities**.
+## 💡 Business Problem
+Businesses often face high inventory costs and reduced profitability due to lack of visibility into vendor performance.
+
+This project analyzes vendor sales and inventory data to identify inefficiencies, optimize vendor selection, and reduce capital locked in unsold inventory.
+
+---
+
+## 💰 Key Business Impact
+
+- Identified **₹2.71 Million in unsold inventory (locked capital)**
+- Discovered **low-performing vendors with higher margins (41.57%) vs top vendors (31.18%)**
+- Highlighted **overstocking risks from major vendors contributing ₹700K+ each**
+- Enabled data-driven strategies to improve procurement and profitability
+
+---
+
+## 📊 Approach
+
+- Data Cleaning & Transformation using Python & SQL  
+- Exploratory Data Analysis (EDA)  
+- KPI Calculation:
+  - Profit Margin  
+  - Stock Turnover  
+  - Sales-to-Purchase Ratio  
+- Vendor Segmentation (Top vs Low)  
+- Statistical Hypothesis Testing (T-Test, 95% Confidence Interval)
+
+---
+
+## 🔍 Key Insights
+
+### 📦 Inventory Risk
+- Total unsold capital: **₹2.71M**
+- Major contributors:
+  - DIAGEO NORTH AMERICA INC — ₹722K+
+  - JIM BEAM BRANDS — ₹554K+
+  - PERNOD RICARD — ₹470K+
+
+👉 Indicates over-purchasing and poor inventory planning
+
+---
+
+### 📈 Profitability Analysis
+- Low-performing vendors: **41.57% margin**
+- Top vendors: **31.18% margin**
+
+👉 Opportunity for vendor rebalancing and margin renegotiation
+
+---
+
+### 🔄 Sales Efficiency
+- Stock turnover: ~0.97–0.99  
+- Sales-to-purchase ratio: ≥ 1.30  
+
+👉 Moderate efficiency with room for optimization
+
+---
+
+### 🧪 Statistical Validation
+- T-Test shows significant difference in margins (**p < 0.001**)  
+- Confirms insights are statistically reliable  
+
+---
+
+## 🧠 Business Recommendations
+
+- Reduce закуп from vendors with high unsold inventory  
+- Prioritize high-margin vendors  
+- Renegotiate contracts with large vendors  
+- Optimize inventory planning  
+- Implement demand forecasting  
+
+---
+
+## 🛠️ Tools & Technologies
+
+- Python (Pandas, NumPy)  
+- SQL  
+- Matplotlib, Seaborn  
+- SciPy  
+- Jupyter Notebook  
+
+---
 
 ## 📁 Project Structure
+
 ```
 Vendor_Performance_Analysis/
 ├── Jupyter Notebook/
@@ -18,95 +100,6 @@ Vendor_Performance_Analysis/
 │   └── etl.log
 └── README.md
 ```
-
-## 🚀 Project Overview
-
-This project performs:
-
-- 🔹 **ETL** – Loading, cleaning, transforming vendor sales data  
-- 🔹 **Descriptive Analytics** – Sales, purchases, margins, turnovers  
-- 🔹 **Inventory Analysis** – Unsold inventory & capital lock calculations  
-- 🔹 **Vendor Classification** – Top vs. Low vendor segmentation  
-- 🔹 **Statistical Testing** – Confidence intervals & T-test  
-- 🔹 **Business Insights** – Profitability, efficiency & strategic recommendations  
-
----
-
-# 📊 Detailed Insights Overview
-
-## 🧮 1. Vendor-Level KPI Summary
-
-| KPI | Example Values |
-|-----|----------------|
-| **Profit Margin** | 21.06%, 24.67%, 27.14%, 28.41% |
-| **Stock Turnover** | 0.976, 0.993, 0.999, 0.984 |
-| **Sales-to-Purchase Ratio** | 1.266, 1.338, 1.372, 1.397 |
-| **Gross Profit** | ₹1,015,032 → ₹1,299,667 → ₹1,194,774 |
-
----
-
-## 📦 2. Unsold Inventory Analysis
-
-### 💰 Total Unsold Capital Locked: **₹ 2.71 Million**
-
-Top vendors contributing the most:
-
-- DIAGEO NORTH AMERICA INC — ₹722.21K  
-- JIM BEAM BRANDS COMPANY — ₹554.67K  
-- PERNOD RICARD USA — ₹470.63K  
-- WILLIAM GRANT & SONS INC — ₹401.96K  
-- E & J GALLO WINERY — ₹228.28K  
-- SAZERAC CO INC — ₹198.44K  
-- BROWN-FORMAN CORP — ₹177.73K  
-- CONSTELLATION BRANDS INC — ₹133.62K  
-- MOET HENNESSY USA INC — ₹126.48K  
-- REMY COINTREAU USA INC — ₹118.60K  
-
----
-
-## 📈 3. Profitability Comparison (Top vs Low Vendors)
-
-- **Top Vendors Mean Margin:** 31.18%  
-- **Low Vendors Mean Margin:** 41.57%  
-- **95% CI (Top):** 30.74% – 31.61%  
-- **95% CI (Low):** 40.50% – 42.64%  
-
----
-
-## 🧪 4. Statistical T-Test
-
-- **T-Statistic:** −17.6693  
-- **P-Value:** 0.0000  
-- **Conclusion:** Significant difference in profit margins.
-
----
-
-## 🔄 5. Stock Turnover & Sales Efficiency
-
-- Turnover ratios: ~0.97–0.99  
-- Sales-to-purchase ratio: ≥ 1.30  
-
----
-
-# 🧠 Strategic Recommendations
-
-- 🌱 Expand high-margin vendors  
-- 🔻 Reduce over-purchasing from high unsold-inventory vendors  
-- 🔄 Improve demand forecasting  
-- 💹 Renegotiate margins with large vendors  
-- 📦 Analyze SKU-level performance  
-
----
-
-# 🛠️ Technologies Used
-
-- 🐍 Python  
-- 📓 Jupyter Notebook  
-- 🗄️ SQL  
-- 📊 Pandas, NumPy  
-- 📉 Matplotlib, Seaborn  
-- 🧮 SciPy  
-
 ---
 
 # 📜 Future Enhancements
