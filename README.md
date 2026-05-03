@@ -16,6 +16,17 @@ This project analyzes vendor sales and inventory data to identify inefficiencies
 
 ---
 
+---
+
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="Images/Vendor_performance.PNG" alt="Vendor Performance Dashboard" width="100%">
+</p>
+
+---
+
+
 ## 📊 Approach
 
 - Data Cleaning & Transformation using Python & SQL  
